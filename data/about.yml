@@ -1,0 +1,42 @@
+# work process
+work_process:
+  enable : false
+  title : "O projektu"
+  item:
+  - title : "Individualno delo omogoča"
+    icon : "images/icons/plan.png"
+    content : "Namesto tega je statična koda v index.html"
+    
+  - title : "Namenjen je"
+    icon : "images/icons/design.png"
+    content : "Namesto tega je statična koda v index.html"
+    
+  - title : "Za uspešen doseg cilja priporočam"
+    icon : "images/icons/print.png"
+    content : "Namesto tega je statična koda v index.html"
+
+# team
+team:
+  enable: true
+  title : "Kontakt"
+  team_member:
+    - title : "Izvajalec"
+      icon : "images/icons/email_102148.svg"
+      designation : "Dejana Javoršek"
+      
+    - title : "Telefon, e-mail"
+      icon : "images/icons/phone_115265.svg"
+      designation : "+386 30 619 072, dejana@dejana.si"
+
+    - title : "Lokacija"
+      icon : "images/icons/3440906-direction-location-map-marker-navigation-pin_107531.svg"
+      designation : "Po dogovoru"
+      
+
+
+# client logo slider
+clients_logo_slider:
+  enable : true
+  title : "My Clients"
+  # clients logo comes from 'data/homepage.yml' file
+  

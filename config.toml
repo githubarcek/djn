@@ -1,0 +1,60 @@
+# default configuration
+baseURL = "http://examplesite/"
+languageCode = "en-us"
+summaryLength = "10"
+theme = "kross-hugo"
+title = "DJN studio"
+
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+
+# js plugin
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+
+# menu
+[[menu.main]]
+name = "O projektu"
+podstran = "oProjektu"
+weight = 1
+
+[[menu.main]]
+name = "Kontakt"
+podstran = "Kontakt"
+weight = 4
+
+[[menu.main]]
+name = "Mnenja"
+podstran = "Testimonials"
+weight = 4
+
+# default parameters
+[params]
+#home = "Domov"
+logo = ""
+# theme color
+theme_color = "#B9956E"
+# contact info
+phone = "+386 30 619 072"
+email = "dejana@dejana.si"
+address = "Po dogovoru"
+
+# meta description
+author = "Johnathan Smith"
+description = "This is meta description"
+# copyright
+copyright = "DJN studio 2022"
+
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use png, jpg, svg or gif format

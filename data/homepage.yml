@@ -1,0 +1,170 @@
+# banner
+banner:
+  title : "Dobrodošli na <br> spletni strani <br> DJN studia"
+
+# about
+about:
+  enable : false
+  content : "Tole je napisano v homepage.yml pod about"
+  button:
+    enable : true
+    label : "know more"
+    URL : "about"
+
+# experience
+experience:
+  enable : false
+  title : "Experience"
+  item: 
+    - logo : "images/experience/icon-1.png"
+      title : "Junior UX Designer"
+      company : "WEBEX"
+      duration : "Jan 2007 - Feb 2009"
+      
+    - logo : "images/experience/icon-2.png"
+      title : "UX & UI Designer"
+      company : "AUGMEDIX"
+      duration : "Mar 2009 - Aug 2014"
+      
+    - logo : "images/experience/icon-1.png"
+      title : "Senior UI Designer"
+      company : "THEMEFISHER"
+      duration : "Sep 2014 - Present"
+
+# skill
+skill:
+  enable : false
+  title : "Skillz"
+  item:
+    - title : "Web Design 12"
+      progress : "90%"
+      color : "#fdb157"
+      
+    - title : "Logo Design"
+      progress : "60%"
+      color : "#9473e6"
+      
+    - title : "After Effects"
+      progress : "80%"
+      color : "#bdecf6"
+      
+    - title : "Web App"
+      progress : "70%"
+      color : "#ffbcaa"
+
+# education
+education:
+  enable : false
+  title : "Education"
+  item:
+    - title : "Marters in UX Design"
+      year : "2006"
+      academy : "Masassusets Institute of Technology"
+      
+    - title : "Honours in Fine Arts"
+      year : "2004"
+      academy : "Harvard University"
+      
+    - title : "Higher Secondary Certificat"
+      year : "2000"
+      academy : "Cardiff School"
+      
+    - title : "Secondary School Certificate"
+      year : "1998"
+      academy : "Cardiff School"
+
+# service
+service:
+  enable : false
+  title : "Services"
+  item:
+    - title : "UI Design"
+      icon : "ti-palette"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : false
+
+    - title : "UX Design"
+      icon : "ti-vector"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : true
+
+    - title : "Interaction Design"
+      icon : "ti-panel"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : false
+
+# portfolio
+portfolio:
+  enable : false
+  title : "Portfolio"
+  item_show : 5
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+# testimonial
+testimonial:
+  enable : true
+  title : "Mnenja"
+  item:
+    - name : "D. V."
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lahko rečem, da mi je Dejana zelo dober zgled tako na profesionalnem, kot tudi na osebnem življenskem področju. Tekom njenega mentoriranja, sem se naučila predvsem natančnosti in iskrenosti do dela. S tem ko sem si postavila višje cilje in zvišala samokritičnost, se mi je istočasno zvišala samozavest."
+    - name : "T. R."
+      content : "Pri predavanjih profesorice Javoršek je vedno vladalo sproščeno in odprto vzdušje, kjer se je spodbujala in pričakovala skupinska diskusija. Večkrat sem bila tako primorana nastopati pred kolegi oziroma glasno izražati svoje mnenje, s čimer sem se postopoma naučila, kako obvladati svojo tremo in nastopiti bolj suvereno. Zdaj bolje vem, kako se obnašati pred publiko in na kakšen način podati svoje sporočilo ter tudi kako ovrednotiti svoj nastop."
+    - name : "Š."
+      content : "Sodelovanje z Dejano je bila ena izmed mojih boljših odločitev. Je prijetna, vztrajna, dosledna in učinkovita . Z nenehnim spodbujanje in usmerjanjem je čas z njo prinesel super rezultate in izboljšanje mojih govornih sposobnosti. Definitivno jo priporočam vsem, ki bi radi izboljšali svoje komunikacijske sposobnosti :)"
+    - name : "P."
+      content : "Tako kot večina ljudi, sem tudi sam imel številne težave pri javnem nastopanju, katerih se morda nisem niti zavedal. Dejana Javoršek mi je s številnimi praktičnimi nasveti in vajami pomagala odpraviti te težave. Z njeno pomočjo mi je uspelo zmanjšati nervozo pred nastopom in izboljšati javno nastopanje."
+    - name : "J. M."
+      content : "Sodelovanje z dr. Dejano Javoršek se je začelo pri mentorstvu moje diplomske naloge. To sodelovanje je imelo veliko pozitivnih posledic zame, kajti od Dejane sem odnesla veliko znanja, ne le s strokovnega področja, ampak tudi s področja komunikacije in javnega nastopanja. Skupaj sva vadili nastopanje, se veliko pogovarjali in počasi premagovali moje strahove. 
+Menim, da je Dejana oseba, ki ti da vso potrebno energijo, ki nam jo včasih  na poti do cilja zmanjka." 
+    - name : "N. Z."
+      content : "Zakaj je vsakdo vreden, da stopa v svet z dvignjeno glavo ...* in kaj ima pri tem hoja? :) Za temi tremi pikami se skriva vesolje. Pogled vanj je s tvojo pomočjo, Dejana, jasnejši.
+Z iskreno hvaležnostjo," 
+    - name : "D. L."
+      content : "Z Dejano sva se dolga, pestra leta srečevali med delom. Takole je z Dejano: pojavi se, ko si v nelagodnem stanju, ugane, ali povpraša, kaj je. Ob nesmiselnih tožbah igralsko zazeha in s tem v nekaj hipih razblini težavo, nato pokaže pravo smer. Pojavi se tudi takrat, ko se valjaš v oblaku veselja in ga še polepša. Najlepša darila v življenju so druženja z ljudmi, kot je Dejana." 
+    - name : "A. M."
+      content : "Dejana mi je tekom najinega sodelovanja nudila pomoč s svojo strokovnostjo, pomagala pa mi je tudi pri začetku moje poklicne poti. Pri projektih me je vztrajno vodila ter preganjala in vedno zahtevala najboljše od mene. Nadaljnje mi je pomagala s pripravo na razgovor za službo pri čemer je bila zelo temeljita in ponudila dragocene nasvete." 
+    - name : "T. M."
+      content : "Pred parimi leti sem se pripravljala na zahteven javni nastop, ki sem ga morala opraviti glede na svoje delovno mesto. Nastopa me je bilo strah že mesec dni prej. Nato sem s strani nekaterih kolegov izvedela, da jim je Dejana pomagala pri podobnih nastopih in da so se potem počutili suverenejše. Tako sem tudi sama prosila Dejano za pomoč. Takoj je pokazala pripravljenost na sodelovanje in priprave so se začele. Pri delu je bila zelo vestna in odločna tako, da sem lahko kmalu prebudila samozavest, za katero si nisem nikoli mislila, da jo imam.
+Dejani sem zelo hvaležna in z veseljem se spomnim svojega javnega nastopa, predavanja na katerega bom vedno ponosna." 
+
+# client logo slider
+clients_logo_slider:
+  enable : false
+  item:
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "#"
+
+# blog
+blog:
+  enable : false
+  title : "Blogs"
+  # blog post comes from "content/blog" folder

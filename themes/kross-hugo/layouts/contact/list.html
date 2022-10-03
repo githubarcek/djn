@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h4 class="section-title">e-mail: dejana@dejana.si <br> telefon: 030 619 072 </h4>
+      </div>
+      <div class="col-12">
+        <ul class="list-inline social-icons text-center">
+          {{ range site.Params.social }}
+          <li class="list-inline-item"><a href="{{.URL}}"><i class="{{.icon}}"></i></a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
