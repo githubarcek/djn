@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on DJN studio</title>
+    <link>https://djn.dejana.si/categories/</link>
+    <description>Recent content in Categories on DJN studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://djn.dejana.si/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>branding</title>
+      <link>https://djn.dejana.si/categories/branding/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://djn.dejana.si/categories/branding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://djn.dejana.si/categories/design/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://djn.dejana.si/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://djn.dejana.si/categories/development/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://djn.dejana.si/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>illustration</title>
+      <link>https://djn.dejana.si/categories/illustration/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://djn.dejana.si/categories/illustration/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
