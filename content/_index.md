@@ -7,7 +7,7 @@ draft: false
 ---
 
 
-Projekt ___Govori z namenom___ obstaja in uspešno deluje približno 8 let. Vsak posameznik potrebuje drugačen pristop, da se lahko nauči suvereno nastopati, se predstaviti in povedati svoje mnenje. Dolgoletno izobraževanje in delo z ljudmi na različnih področjih, mi omogočajo edinstven pristop, ki temelji na individualnem in celostnem oblikovanju javne podobe posameznika.
+Projekt ___Govori z namenom___ obstaja in uspešno deluje že od leta 2015. Vsak posameznik potrebuje drugačen pristop, da se lahko nauči suvereno nastopati, se predstaviti in povedati svoje mnenje. Dolgoletno izobraževanje in delo z ljudmi na različnih področjih, mi omogočajo edinstven pristop, ki temelji na individualnem in celostnem oblikovanju javne podobe posameznika.
 
 
 Tu sem za vas.
