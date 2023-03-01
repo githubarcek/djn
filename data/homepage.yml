@@ -53,44 +53,57 @@ skill:
       color : "#ffbcaa"
 
 # education
-education:
-  enable : false
-  title : "Education"
+izobrazba_formalna:
+  enable : true
+  title : "Izobrazba"
   item:
-    - title : "Marters in UX Design"
+    - title : "Doktor znanosti"
+      year : "2005"
+      academy : "Univerza v Ljubljani, Naravoslovnotehniška fakulteta"
+
+    - title : "GDPR specialist, notranji presojevalec skladnosti Uredbe (EU)"
+      year : "2016"
+      academy : "Bureau Veritas"
+      
+    - title : "Pooblaščena oseba za varstvo osebnih podatkov/dodatna kvalifikacija"
+      year : "2018"
+      academy : "Info hiša d.o.o."
+
+
+   
+   # education
+izobrazba_neformalna:
+  enable : true
+  title : "Druga znanja"
+  item:
+    - title : "Klasična masaža"
       year : "2006"
-      academy : "Masassusets Institute of Technology"
-      
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
-      
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-      
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+      academy : "Zavod Akademija za inovativnost"
+
+    - title : "Refleksna masaža stopal"
+      year : "2006"
+      academy : "Zavod Akademija za inovativnost"
+
+   
 
 # service
 service:
   enable : false
-  title : "Services"
+  title : "Ravnovesje z namero"
   item:
-    - title : "UI Design"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Omogoča"
+      # icon : "ti-palette"
+      content : "Vpogled v energijske centre v telesu in njihovo aktivacijo"
       highlighted : false
 
-    - title : "UX Design"
-      icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Rezultat"
+      #icon : "ti-vector"
+      content : "Dviganje lastne vibracije za boljše počutje in vsakodenvno komunikacijo"
       highlighted : true
 
-    - title : "Interaction Design"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Namenjen je"
+      #icon : "ti-panel"
+      content : "Vsem, ki jih zanima delo na sebi"
       highlighted : false
 
 # portfolio
@@ -128,6 +141,7 @@ Z iskreno hvaležnostjo,"
     - name : "T. M."
       content : "Pred parimi leti sem se pripravljala na zahteven javni nastop, ki sem ga morala opraviti glede na svoje delovno mesto. Nastopa me je bilo strah že mesec dni prej. Nato sem s strani nekaterih kolegov izvedela, da jim je Dejana pomagala pri podobnih nastopih in da so se potem počutili suverenejše. Tako sem tudi sama prosila Dejano za pomoč. Takoj je pokazala pripravljenost na sodelovanje in priprave so se začele. Pri delu je bila zelo vestna in odločna tako, da sem lahko kmalu prebudila samozavest, za katero si nisem nikoli mislila, da jo imam.
 Dejani sem zelo hvaležna in z veseljem se spomnim svojega javnega nastopa, predavanja na katerega bom vedno ponosna." 
+
 
 # client logo slider
 clients_logo_slider:

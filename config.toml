@@ -20,15 +20,14 @@ link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 
-# menu
-[[menu.main]]
-name = "O projektu"
-podstran = "oProjektu"
-weight = 1
-
 [[menu.main]]
 name = "Kontakt"
 podstran = "Kontakt"
+weight = 4
+
+[[menu.main]]
+name = "Znanje"
+podstran = "Izobrazba in znanje"
 weight = 4
 
 [[menu.main]]
@@ -48,10 +47,10 @@ email = "dejana@dejana.si"
 address = "Po dogovoru"
 
 # meta description
-author = "Johnathan Smith"
-description = "This is meta description"
+author = "Dejana Javoršek"
+description = "DJN studio"
 # copyright
-copyright = "DJN studio 2022"
+copyright = "DJN studio 2022 / Avtor fotografije: Jure Ahtik"
 
 
 # preloader

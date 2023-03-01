@@ -55,8 +55,7 @@
       </div>
       <div class="col-md-4 text-center drag-lg-top">
         <div class="shadow-down mb-4">
-          <img src="{{.Params.author_image | absURL }}" alt="author" 
-            class="img-fluid w-100 rounded-lg ">
+          <img src="{{.Params.author_image | absURL }}" alt="author" class="img-fluid w-100 rounded-1g">
         </div>
       </div>
     </div>
@@ -138,65 +137,7 @@
   {{ end }}
   {{ end }}
 
-  {{ if site.Data.homepage.education.enable }}
-  {{ with site.Data.homepage.education }}
-  <!-- education -->
-  <section class="section position-relative">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
-        </div>
-        {{ range .item }}
-        <div class="col-lg-6 col-md-6 mb-80">
-          <div class="d-flex">
-            <div class="mr-lg-5 mr-3">
-              <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
-            </div>
-            <div>
-              <p class="text-dark mb-1">{{.year}}</p>
-              <h4>{{ .title }}</h4>
-              <p class="mb-0 text-light">{{.academy}}</p>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-    <!-- bg image -->
-    <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
-  </section>
-  <!-- /education -->
-  {{ end }}
-  {{ end }}
 
-
-  {{ if site.Data.homepage.service.enable }}
-  {{ with site.Data.homepage.service }}
-  <!-- services -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
-        </div>
-        {{ range .item }}
-        <div class="col-md-4 mb-4">
-          <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
-              <i class="{{.icon }} icon mb-5 d-inline-block"></i>
-              <h4 class="mb-4">{{.title}}</h4>
-              <p>{{.content | markdownify}}</p>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-  <!-- /services -->
-  {{ end }}
-  {{ end }}
 
 
   {{ if site.Data.homepage.portfolio.enable }}
@@ -247,18 +188,18 @@
       <div class="row justify-content-around">
         <a name=O&#32;projektu class="top"></a>
         <div class="col-lg-12 text-center">
-          <h2 class="section-title">O projektu</h2>
+          <h2 class="section-title">Govori z namero</h2>
         </div>
         
         <div class="col-lg-4 col-md-4 text-center hover-shadow pt-3">
           <h4 class="mb-4">Individualno delo omogoča</h4>
           <ul>
+          <li><font size=3>dviganje lastne vibracije pred sestanki s klienti za boljšo komunikacijo</font></li>
           <li><font size=3>osebnostno pripravo na javni nastop</font></li>
           <li><font size=3>pripravo predstavitve z jasnim sporočilom</font></li>
           <li><font size=3>izboljšanje komunikacije v vsakdanjem življenju</font></li>
           <li><font size=3>pripravo na razgovor za službo</font></li>
           <li><font size=3>izboljšanje govornih sposobnosti</font></li>
-        
           </ul>
         </div>
         
@@ -285,7 +226,31 @@
     </div>
   </section>
   
-  
+  {{ if site.Data.homepage.service.enable }}
+  {{ with site.Data.homepage.service }}
+  <!-- services -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+        </div>
+        {{ range .item }}
+        <div class="col-md-4 mb-4">
+          <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <h4 class="mb-4">{{.title}}</h4>
+              <p>{{.content | markdownify}}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /services -->
+  {{ end }}
+  {{ end }}
 
 <!-- Work Process -->
 {{ if site.Data.about.work_process.enable }}
@@ -337,7 +302,73 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /team -->
+
+
+{{ if site.Data.homepage.izobrazba_formalna.enable }}
+{{ with site.Data.homepage.izobrazba_formalna }}
+<!-- education -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a name={{.title}} class="top"></a>
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+      {{ range .item }}
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">{{.year}}</p>
+            <h4>{{ .title }}</h4>
+            <p class="mb-0 text-light">{{.academy}}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
+</section>
+<!-- /education -->
+{{ end }}
+{{ end }}
+
+{{ if site.Data.homepage.izobrazba_neformalna.enable }}
+{{ with site.Data.homepage.izobrazba_neformalna }}
+<!-- education -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a name={{.title}} class="top"></a>
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+      {{ range .item }}
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">{{.year}}</p>
+            <h4>{{ .title }}</h4>
+            <p class="mb-0 text-light">{{.academy}}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
+</section>
+<!-- /education -->
+{{ end }}
+{{ end }}
 
   {{ if site.Data.homepage.testimonial.enable }}
   {{ with site.Data.homepage.testimonial }}

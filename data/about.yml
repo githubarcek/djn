@@ -1,7 +1,7 @@
 # work process
 work_process:
   enable : false
-  title : "O projektu"
+  title : "Govori z namero"
   item:
   - title : "Individualno delo omogoča"
     icon : "images/icons/plan.png"
@@ -10,10 +10,11 @@ work_process:
   - title : "Namenjen je"
     icon : "images/icons/design.png"
     content : "Namesto tega je statična koda v index.html"
-    
+
   - title : "Za uspešen doseg cilja priporočam"
     icon : "images/icons/print.png"
     content : "Namesto tega je statična koda v index.html"
+
 
 # team
 team:
