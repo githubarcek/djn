@@ -118,6 +118,15 @@ testimonial:
   enable : true
   title : "Mnenja"
   item:
+    - name : "Kristina Lalević, Sanolabor"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Dejana resnično nudi celosten pristop coachinga za dvig lastne vibracije. 
+Posameznika po korakih pripravi do samorefleksije reakcij in občutkov, kar mu omogoča lažje razumevanje okolice in zaporedja dogodkov. Z Dejano sem se naučila veščin, ki jih nameravam uporabiti tako na osebnem, kot tudi poslovnem področju."
+    - name : "Klavdija"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Odkar redno sodelujem z Dejano, je postala zelo pomemben člen v mojem življenju. Že preprost pogovor z njo mi širi obzorja in vedno znova odkrivam, kako široki sta njeni znanje in zavedanje. Nemalo kateri telefonski klic postane zdravilen, ko mi v nekaj trenutkih odpravi glavobol, slabo voljo ali frustracijo. Zagotovo vas ne bo pustila ravnodušne."
     - name : "D. V."
       image : "images/testimonial/client-1.png"
       designation : "CEO, Funder"
